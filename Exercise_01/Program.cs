@@ -9,6 +9,7 @@ int sum = HowMany(array);
 Console.WriteLine($"Количество чётных чисел в массиве = {sum}");
 
 
+
 int[] GetArray(int size, int minValue, int maxValue)
 {
     int[] arr = new int[size];
@@ -18,6 +19,7 @@ int[] GetArray(int size, int minValue, int maxValue)
     }
     return arr;
 }
+
 
 
 int HowMany(int[] array)
